@@ -1,0 +1,17 @@
+package catch_try;
+
+public class try_catch {
+public static void main(String args[]){
+try{//a block of code .
+	System.out.println("this will  be not printed");
+}catch(ArithmeticException e){
+	//catch divide-by-zero
+			
+			System.out.println("Division by zero");
+	
+	}
+System.out.println("after catch statement.");
+
+}
+
+}
